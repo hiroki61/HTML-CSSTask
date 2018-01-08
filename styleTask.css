@@ -1,0 +1,19 @@
+/*ブラウザがそれぞれ持っているCSSをリセットする*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: auto;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.main-visual {
+	width: auto;
+	height: 650px;
+	background-color: brown;
+}
+
