@@ -5,15 +5,114 @@
 	box-sizing: border-box;
 }
 
+
+
 header {
 	width: auto;
 	height: 70px;
 	background-color: #EC715F;
 }
 
+.header-item {
+	width: 1024px;
+	margin: auto;
+}
+
+.header-image {
+	height: 70px;
+}
+
 .main-visual {
 	width: auto;
 	height: 650px;
-	background-color: brown;
+	background-color: lightgreen;
+}
+
+.main-visual-content {
+	width: auto;
+}
+
+#a {font-size: 64px;
+	padding-bottom: 10px;
+}
+#b {font-size: 20px;}
+
+
+
+
+
+main {
+	width: auto;
+	height: 1000px
+	background-color: yellow;
+}
+
+.main-Portfolio {
+	width: auto;
+	height: 250px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+}
+
+.main-Portfolio-content {
+	width: auto;
+	height: 70px;
+	background-color: pink;
+	margin: 90px 0;
+}
+
+.main-Feature {
+	width: auto;
+	height: 250px;
+	overflow: hidden;
+}
+
+.main-Feature-content {
+	width: auto;
+	height: 70px;
+	background-color: pink;
+	margin: 90px 0;
+}
+
+.main-Profile {
+	width: auto;
+	height: 250px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+}
+
+.main-Profile-content {
+	width: auto;
+	height: 70px;
+	background-color: pink;
+	margin: 90px 0;
+}
+
+.main-Contact {
+	width: auto;
+	height: 250px;
+	overflow: hidden;
+}
+
+.main-Contact-content {
+	width: auto;
+	height: 70px;
+	background-color: pink;
+	margin: 90px 0;
+}
+
+
+footer {
+	text-align: center;
+	width: auto;
+	height: 60px;
+	background-color: #EC715F;
+}
+
+.footer-text {
+	color: #FAFAFA;
+
+	font-size:16px;
+	padding-top: 22px;
 }
 
