@@ -5,7 +5,12 @@
 	box-sizing: border-box;
 }
 
-
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
 header {
 	width: auto;
@@ -38,17 +43,23 @@ header {
 .main-visual {
 	width: auto;
 	height: 650px;
-	background-color: lightgreen;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	text-align:center;
 }
 
 .main-visual-content {
 	width: auto;
+	margin: 0 ;
+	padding-top: 200px;
 }
 
-#a {font-size: 64px;
+#main-visual-top {font-size: 64px;
+	color: #FAFAFA;
 	padding-bottom: 10px;
 }
-#b {font-size: 20px;}
+#main-visual-bottom {font-size: 20px;
+	color: #FAFAFA}
 
 
 
@@ -56,23 +67,80 @@ header {
 
 main {
 	width: auto;
-	height: 1000px
-	background-color: yellow;
 }
 
 .main-Portfolio {
 	width: auto;
-	height: 250px;
 	background-color: #ECEFF1;
 	overflow: hidden;
+	text-align:center;
 }
 
 .main-Portfolio-content {
-	width: auto;
-	height: 70px;
-	background-color: pink;
-	margin: 90px 0;
+	width: 920px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 90px;
 }
+ #main-Portfolio-top {
+ 	font-size: 32px;
+ 	color: #000000;
+ 	padding-bottom: 8px;
+}
+
+.make_border_1{
+  width:70px;
+  height:3px;
+  background:#EC715F;
+  margin:auto;
+}
+
+#main-Portfolio-bottom {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.main-Portfolio-content-image {
+	width: 920px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.Portfolio-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  }
+
+.Portfolio-image:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  margin: 0 0 10px 0;
+  }
+.Portfolio-image:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0 10px 10px 10px;
+  }
+.Portfolio-image:nth-child(3) {
+  background-image: url(img/write.jpg);
+  margin: 0 0 10px 0;
+  }
+.Portfolio-image:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  }
+.Portfolio-image:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin: 0 10px;
+  }
+.Portfolio-image:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+  }
+
 
 .main-Feature {
 	width: auto;
