@@ -223,17 +223,91 @@ main {
 
 .main-Profile {
 	width: auto;
-	height: 250px;
 	background-color: #ECEFF1;
 	overflow: hidden;
+	text-align:center;
 }
 
 .main-Profile-content {
-	width: auto;
-	height: 70px;
-	background-color: pink;
-	margin: 90px 0;
+	width: 1024px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 90px
 }
+
+#main-Profile-top {
+ 	font-size: 32px;
+ 	color: #000000;
+ 	padding-bottom: 8px;
+}
+
+.make_border_3 {
+  width:70px;
+  height:3px;
+  background:#EC715F;
+  margin:auto;
+}
+
+#main-Profile-bottom {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.main-Profile-content-image {
+	width: 920px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.Profile-image {
+	float: left;
+	width: 50%;
+}
+
+.Profile-image-content {
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.Profile-text {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+.Profile-text-topic-1 {
+ 	font-size: 20px;
+ 	margin-bottom: 5px;
+ }
+
+.Profile-text-topic-2 {
+ 	font-size: 20px;
+ 	margin: 8px 0 5px 0;
+ }
+
+ .Profile-text-detail {
+ 	font-size: 16px;
+ 	color: #000000;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-Contact {
 	width: auto;
