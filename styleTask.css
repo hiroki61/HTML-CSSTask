@@ -265,7 +265,7 @@ main {
 
 .Profile-image {
 	float: left;
-	width: 50%;
+	width: 400px;
 }
 
 .Profile-image-content {
@@ -278,7 +278,7 @@ main {
 
 .Profile-text {
 	float: left;
-	width: 50%;
+	width: 400px;
 	text-align: left;
 }
 .Profile-text-topic-1 {
@@ -296,31 +296,107 @@ main {
  	color: #000000;
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-Contact {
 	width: auto;
-	height: 250px;
 	overflow: hidden;
+	text-align:center;
 }
 
 .main-Contact-content {
-	width: auto;
-	height: 70px;
-	background-color: pink;
-	margin: 90px 0;
+	width: 800px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 90px
 }
+
+#main-Contact-top {
+ 	font-size: 32px;
+ 	color: #000000;
+ 	padding-bottom: 8px;
+}
+
+.make_border_4{
+  width:70px;
+  height:3px;
+  background:#EC715F;
+  margin:auto;
+}
+
+#main-Contact-middle {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.main-Contact-content-bottom {
+	width: 800px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.main-Contact-content-contact1 {
+	float: left;
+	width: 400px;
+
+
+}
+
+.contact-detail1 {
+	display: inline-block;
+	text-align: left;
+}
+
+
+.contact-topic1 {
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.contact-topic2 {
+	font-size: 20px;
+	margin: 20px 0 5px 0;
+}
+
+
+.main-Feature-content-contact2 {
+	float: left;
+	width: 400px;
+
+}
+
+.contact-detail2 {
+	display: inline-block;
+	text-align: left;
+}
+
+.contact-topic3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.social i {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.fa-size2 {
+	font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
