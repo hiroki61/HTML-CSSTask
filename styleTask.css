@@ -5,8 +5,7 @@
 	box-sizing: border-box;
 }
 
-}
-.clearfix::after {
+.clearfix::after{
   content: "";
   display: block;
   clear: both;
@@ -31,11 +30,17 @@ header {
 .nav-list {
 	float: right;
 }
+.humberger {
+	display: none;
+}
+.social-h i {
+	display: none;
+}
 
 .nav-list-item {
   list-style: none;
   display: inline-block;
-  margin: 0 30px;
+  margin: 23px 30px;
   font-size: 16px;
   color: #FAFAFA;
 }
@@ -256,7 +261,7 @@ main {
 }
 
 .main-Profile-content-image {
-	width: 920px;
+	width: 1024px;
 	background-color: #ECEFF1;
 	overflow: hidden;
 	margin: 0 auto;
@@ -265,7 +270,7 @@ main {
 
 .Profile-image {
 	float: left;
-	width: 400px;
+	width: 512px;
 }
 
 .Profile-image-content {
@@ -278,23 +283,23 @@ main {
 
 .Profile-text {
 	float: left;
-	width: 400px;
+	width: 512px;
 	text-align: left;
 }
 .Profile-text-topic-1 {
  	font-size: 20px;
  	margin-bottom: 5px;
- }
+}
 
 .Profile-text-topic-2 {
  	font-size: 20px;
  	margin: 8px 0 5px 0;
- }
+}
 
  .Profile-text-detail {
  	font-size: 16px;
  	color: #000000;
- }
+}
 
 .main-Contact {
 	width: auto;
@@ -386,19 +391,6 @@ main {
 	font-size: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
 	text-align: center;
 	width: auto;
@@ -411,5 +403,142 @@ footer {
 
 	font-size:16px;
 	padding-top: 22px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.main-visual-content, .main-Portfolio-content, .main-Portfolio-content-image, .main-Feature-content, .main-Feature-content-bottom, .main-Profile-content, .main-Profile-content-image, .main-Contact-content, .main-Contact-content-bottom {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.header-item {
+		width: 100%;
+	}
+	header {
+		height: 50px;
+	}
+
+
+	.header-image {
+		height: 50px;
+	}
+
+	.a {
+		display: none;
+	}
+/*	.humberger {
+		float: right;
+		margin: 3px 8px 3px 0;
+  		border: 2px solid #FAFAFA;
+	}
+	.humberger1, .humberger2, .humberger3 {
+  		height: 4px;
+  		width: 25px;
+  		background-color:#FAFAFA;
+  		margin: 7px 5px;
+	}*/
+	.social-h{
+		width: 44px;
+		height: 44px;
+		float: right;
+		line-height: 50px;
+		border: 1px solid white;
+		text-align: center;
+		margin: 3px 8px 0 0;
+	}
+	.social-h i  {
+		display: inline;
+		font-size: 30px;
+		color: white;
+
+	}
+
+	.main-visual {
+		height: 750px;
+		background-image: url(img/code.png);
+	}
+
+	#main-Portfolio-top, #main-Feature-top, #main-Profile-top, #main-Contact-top {
+		margin-top: 90px;
+	}
+	.Portfolio-image:nth-child(1) {
+ 	background-image: url(img/sketch.jpg);
+ 	margin: 0;
+ 	height: 250px;
+ 	display: none !important;
+ 	}
+	.Portfolio-image:nth-child(2) {
+  	background-image: url(img/websuku.png);
+  	float: none;
+  	margin: 0 auto;
+  	height: 250px;
+  	}
+	.Portfolio-image:nth-child(3) {
+  	background-image: url(img/write.jpg);
+  	margin: 0;
+  	height: 250px;
+  	display: none !important;
+  	}
+	.Portfolio-image:nth-child(4) {
+  	background-image: url(img/webcamp.png);
+  	float: none;
+  	margin: 10px auto;
+  	}
+	.Portfolio-image:nth-child(5) {
+  	background-image: url(img/talk.jpg);
+  	margin: 0;
+  	height: 250px;
+  	display: none !important;
+  	}
+	.Portfolio-image:nth-child(6) {
+  	background-image: url(img/webcamp-mother.png);
+  	float: none;
+  	margin: 0 auto 90px;
+  	height: 250px;
+  	}
+
+  	.main-Feature-content-bottom-a, .main-Feature-content-bottom-b {
+  		float: none;
+  		margin: 0 auto 10px;
+  	}
+  	.main-Feature-content-bottom-c {
+  		float: none;
+  		margin: 0 auto 90px;
+  	}
+
+  	.Profile-image, .Profile-text {
+  		float: none;
+  		width: auto;
+  		text-align: center;
+  	}
+  	.Profile-text-topic-1, .Profile-text-topic-2 {
+  		margin: 20px 0 5px 0;
+  	}
+  	.Profile-text-detail {
+  		margin-bottom: 90px;
+  	}
+
+  	.main-Contact-content-contact1, .main-Contact-content-contact2 {
+  		float: none;
+  		width: auto;
+  	}
+  	.contact-detail1, .contact-detail2 {
+  		text-align: center;
+  	}
+  	.contact1-topic1 {
+  		margin-bottom: 5px;
+  	}
+  	.contact1-topic2, .contact1-topic3 {
+  		margin: 20px 0 5px 0;
+  	}
+  	.social i {
+  		margin-right: 8px;
+  	}
+  	.contact-detail2 {
+  		margin-bottom: 90px;
+  	}
+
+
 }
 
