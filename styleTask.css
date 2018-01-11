@@ -5,15 +5,526 @@
 	box-sizing: border-box;
 }
 
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 header {
 	width: auto;
 	height: 70px;
 	background-color: #EC715F;
 }
 
+.header-item {
+	width: 1024px;
+	margin: auto;
+}
+
+.header-image {
+	float:left;
+	height: 70px;
+}
+
+.nav-list {
+	float: right;
+}
+.social-h i {
+	display: none;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 23px 30px;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
 .main-visual {
 	width: auto;
 	height: 650px;
-	background-color: brown;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	text-align:center;
+}
+
+.main-visual-content {
+	width: auto;
+	margin: 0 ;
+	padding-top: 200px;
+}
+
+#main-visual-top {font-size: 64px;
+	color: #FAFAFA;
+	padding-bottom: 10px;
+}
+#main-visual-bottom {font-size: 20px;
+	color: #FAFAFA}
+
+
+
+
+
+main {
+	width: auto;
+}
+
+.main-Portfolio {
+	width: auto;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	text-align:center;
+}
+
+.main-Portfolio-content {
+	width: 920px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+#main-Portfolio-top {
+ 	font-size: 32px;
+ 	color: #000000;
+ 	padding-bottom: 8px;
+}
+
+.make_border_1{
+  width:70px;
+  height:3px;
+  background:#EC715F;
+  margin:auto;
+}
+
+#main-Portfolio-bottom {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.main-Portfolio-content-image {
+	width: 920px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.Portfolio-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  }
+
+.Portfolio-image:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  margin: 0 0 10px 0;
+  }
+.Portfolio-image:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0 10px 10px 10px;
+  }
+.Portfolio-image:nth-child(3) {
+  background-image: url(img/write.jpg);
+  margin: 0 0 10px 0;
+  }
+.Portfolio-image:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  }
+.Portfolio-image:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin: 0 10px;
+  }
+.Portfolio-image:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+  }
+
+
+.main-Feature {
+	width: auto;
+	overflow: hidden;
+	text-align:center;
+}
+
+.main-Feature-content {
+	width: 920px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 90px
+}
+
+#main-Feature-top {
+ 	font-size: 32px;
+ 	color: #000000;
+ 	padding-bottom: 8px;
+}
+
+.make_border_2{
+  width:70px;
+  height:3px;
+  background:#EC715F;
+  margin:auto;
+}
+
+#main-Feature-middle {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.main-Feature-content-bottom {
+	width: 980px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.main-Feature-content-bottom-text-t {
+	font-size: 20px;
+	color: #000000;
+	margin: 10px 0;
+}
+
+.sosial i {
+	margin:0 auto;
+}
+
+.fa-size {
+	font-size: 60px;
+}
+
+.main-Feature-content-bottom-text-b {
+	font-size: 16px;
+	color: #000000;
+}
+
+
+
+.main-Feature-content-bottom-a {
+	float: left;
+ 	width: 320px;
+}
+
+.main-Feature-content-bottom-b {
+	float: left;
+ 	width: 320px;
+ 	margin: 0 10px;
+}
+
+.main-Feature-content-bottom-c {
+	float: left;
+	width: 320px;
+}
+
+
+
+
+.main-Profile {
+	width: auto;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	text-align:center;
+}
+
+.main-Profile-content {
+	width: 1024px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 90px
+}
+
+#main-Profile-top {
+ 	font-size: 32px;
+ 	color: #000000;
+ 	padding-bottom: 8px;
+}
+
+.make_border_3 {
+  width:70px;
+  height:3px;
+  background:#EC715F;
+  margin:auto;
+}
+
+#main-Profile-bottom {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.main-Profile-content-image {
+	width: 1024px;
+	background-color: #ECEFF1;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.Profile-image {
+	float: left;
+	width: 512px;
+}
+
+.Profile-image-content {
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.Profile-text {
+	float: left;
+	width: 512px;
+	text-align: left;
+}
+.Profile-text-topic-1 {
+ 	font-size: 20px;
+ 	margin-bottom: 5px;
+}
+
+.Profile-text-topic-2 {
+ 	font-size: 20px;
+ 	margin: 8px 0 5px 0;
+}
+
+ .Profile-text-detail {
+ 	font-size: 16px;
+ 	color: #000000;
+}
+
+.main-Contact {
+	width: auto;
+	overflow: hidden;
+	text-align:center;
+}
+
+.main-Contact-content {
+	width: 800px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 90px
+}
+
+#main-Contact-top {
+ 	font-size: 32px;
+ 	color: #000000;
+ 	padding-bottom: 8px;
+}
+
+.make_border_4{
+  width:70px;
+  height:3px;
+  background:#EC715F;
+  margin:auto;
+}
+
+#main-Contact-middle {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+
+.main-Contact-content-bottom {
+	width: 800px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+.main-Contact-content-contact1 {
+	float: left;
+	width: 400px;
+
+
+}
+
+.contact-detail1 {
+	display: inline-block;
+	text-align: left;
+}
+
+
+.contact-topic1 {
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.contact-topic2 {
+	font-size: 20px;
+	margin: 20px 0 5px 0;
+}
+
+
+.main-Feature-content-contact2 {
+	float: left;
+	width: 400px;
+
+}
+
+.contact-detail2 {
+	display: inline-block;
+	text-align: left;
+}
+
+.contact-topic3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.social i {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.fa-size2 {
+	font-size: 50px;
+}
+
+footer {
+	text-align: center;
+	width: auto;
+	height: 60px;
+	background-color: #EC715F;
+}
+
+.footer-text {
+	color: #FAFAFA;
+
+	font-size:16px;
+	padding-top: 22px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.main-visual-content, .main-Portfolio-content, .main-Portfolio-content-image, .main-Feature-content, .main-Feature-content-bottom, .main-Profile-content, .main-Profile-content-image, .main-Contact-content, .main-Contact-content-bottom {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.header-item {
+		width: 100%;
+	}
+	header {
+		height: 50px;
+	}
+
+
+	.header-image {
+		height: 50px;
+	}
+
+	.a {
+		display: none;
+	}
+	.social-h{
+		width: 44px;
+		height: 44px;
+		float: right;
+		line-height: 50px;
+		border: 1px solid white;
+		text-align: center;
+		margin: 3px 8px 0 0;
+	}
+	.social-h i  {
+		display: inline;
+		font-size: 30px;
+		color: white;
+
+	}
+
+	.main-visual {
+		height: 750px;
+		background-image: url(img/code.png);
+	}
+
+	#main-Portfolio-top, #main-Feature-top, #main-Profile-top, #main-Contact-top {
+		margin-top: 90px;
+	}
+	.Portfolio-image:nth-child(1) {
+ 	background-image: url(img/sketch.jpg);
+ 	margin: 0;
+ 	height: 250px;
+ 	display: none !important;
+ 	}
+	.Portfolio-image:nth-child(2) {
+  	background-image: url(img/websuku.png);
+  	float: none;
+  	margin: 0 auto;
+  	height: 250px;
+  	}
+	.Portfolio-image:nth-child(3) {
+  	background-image: url(img/write.jpg);
+  	margin: 0;
+  	height: 250px;
+  	display: none !important;
+  	}
+	.Portfolio-image:nth-child(4) {
+  	background-image: url(img/webcamp.png);
+  	float: none;
+  	margin: 10px auto;
+  	}
+	.Portfolio-image:nth-child(5) {
+  	background-image: url(img/talk.jpg);
+  	margin: 0;
+  	height: 250px;
+  	display: none !important;
+  	}
+	.Portfolio-image:nth-child(6) {
+  	background-image: url(img/webcamp-mother.png);
+  	float: none;
+  	margin: 0 auto 90px;
+  	height: 250px;
+  	}
+
+  	.main-Feature-content-bottom-a, .main-Feature-content-bottom-b {
+  		float: none;
+  		margin: 0 auto 10px;
+  	}
+  	.main-Feature-content-bottom-c {
+  		float: none;
+  		margin: 0 auto 90px;
+  	}
+
+  	.Profile-image, .Profile-text {
+  		float: none;
+  		width: auto;
+  		text-align: center;
+  	}
+  	.Profile-text-topic-1, .Profile-text-topic-2 {
+  		margin: 20px 0 5px 0;
+  	}
+  	.Profile-text-detail {
+  		margin-bottom: 90px;
+  	}
+
+  	.main-Contact-content-contact1, .main-Contact-content-contact2 {
+  		float: none;
+  		width: auto;
+  	}
+  	.contact-detail1, .contact-detail2 {
+  		text-align: center;
+  	}
+  	.contact1-topic1 {
+  		margin-bottom: 5px;
+  	}
+  	.contact1-topic2, .contact1-topic3 {
+  		margin: 20px 0 5px 0;
+  	}
+  	.social i {
+  		margin-right: 8px;
+  	}
+  	.contact-detail2 {
+  		margin-bottom: 90px;
+  	}
+
+
 }
 
