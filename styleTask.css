@@ -10,7 +10,7 @@
   display: block;
   clear: both;
 }
-
+/*header*/
 header {
 	width: auto;
 	height: 70px;
@@ -42,6 +42,8 @@ header {
   color: #FAFAFA;
 }
 
+
+/*main-visual*/
 .main-visual {
 	width: auto;
 	height: 650px;
@@ -63,14 +65,11 @@ header {
 #main-visual-bottom {font-size: 20px;
 	color: #FAFAFA}
 
-
-
-
-
+/*main*/
 main {
 	width: auto;
 }
-
+/*main-Portfolio*/
 .main-Portfolio {
 	width: auto;
 	background-color: #ECEFF1;
@@ -115,7 +114,7 @@ main {
 .Portfolio-image {
   float: left;
   width: 300px;
-  height: 200px;
+  height: 250px;
   background-size: cover;
   background-position: center;
   }
@@ -298,6 +297,7 @@ main {
  	color: #000000;
 }
 
+/*Contact*/
 .main-Contact {
 	width: auto;
 	overflow: hidden;
@@ -350,13 +350,13 @@ main {
 }
 
 
-.contact-topic1 {
+.contact1-topic1 {
 	font-size: 20px;
 	margin-bottom: 5px;
 	text-align: left;
 }
 
-.contact-topic2 {
+.contact1-topic2 {
 	font-size: 20px;
 	margin: 20px 0 5px 0;
 }
@@ -399,7 +399,7 @@ footer {
 	color: #FAFAFA;
 
 	font-size:16px;
-	padding-top: 22px;
+	line-height: 60px;
 }
 
 
@@ -447,6 +447,7 @@ footer {
 
 	#main-Portfolio-top, #main-Feature-top, #main-Profile-top, #main-Contact-top {
 		margin-top: 90px;
+		font-size: 40px;
 	}
 	.Portfolio-image:nth-child(1) {
  	background-image: url(img/sketch.jpg);
